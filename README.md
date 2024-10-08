@@ -4,7 +4,9 @@
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-blue)
 ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
 
-**Kosmosius** is a project dedicated to fine-tuning a Large Language Model (LLM) on a curated corpus of great literature using HuggingFace's Transformers and PEFT (Parameter-Efficient Fine-Tuning) techniques. Leveraging a single NVIDIA GeForce RTX 3070 Ti GPU, Kosmosius aims to capture the stylistic nuances and thematic elements of classical and modern literary works, making advanced language modeling accessible and efficient.
+**Kosmosius** is dedicated to exploring and engaging with the world's most esteemed literary works from diverse cultures and historical periods. By meticulously comparing and analyzing seminal texts—from ancient epics like *The Epic of Gilgamesh* and *The Iliad* to modern masterpieces such as *Relativity* and *The Lord of the Rings*—Kosmosius aims to uncover and preserve the timeless wisdom that transcends spatial and temporal boundaries. Engaging with this curated "great books" list fosters intellectual growth, cultural literacy, and ethical awareness, empowering individuals to develop critical thinking and empathetic understanding. Integrating the profound insights from these works into one's life not only enhances personal development but also contributes to a more informed and thoughtful society. Interacting with someone deeply versed in these texts would be intellectually stimulating, offering thought-provoking discussions and interdisciplinary perspectives that inspire continuous learning and meaningful dialogue.
+
+This is a project dedicated to fine-tuning a Large Language Model (LLM) on a curated corpus of great literature using HuggingFace's Transformers and PEFT (Parameter-Efficient Fine-Tuning) techniques. Leveraging a consumer-grade GPUs, **Kosmosius** aims to capture the stylistic nuances and thematic elements of classical and modern literary works, making advanced language modeling accessible and efficient.
 
 ## Table of Contents
 
