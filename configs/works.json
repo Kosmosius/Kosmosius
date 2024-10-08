@@ -1,0 +1,2428 @@
+{
+    "Sumerian": [
+        {
+            "title": "Sumerian Mythology",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Instructions of Shuruppak",
+            "gutenberg_id": null
+        }
+    ],
+    "Egyptian": [
+        {
+            "title": "The Pyramid Texts",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Story of Sinuhe",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Book of Coming Forth by Day (The Egyptian Book of the Dead)",
+            "gutenberg_id": null
+        }
+    ],
+    "Mesopotamain": [
+        {
+            "title": "The Epic of Gilgamesh & Other Myths",
+            "gutenberg_id": 11017
+        }
+    ],
+    "Babylonian": [
+        {
+            "title": "Enûma Eliš",
+            "gutenberg_id": null
+        }
+    ],
+    "Hammurabi": [
+        {
+            "title": "Code of Hammurabi",
+            "gutenberg_id": 1136
+        }
+    ],
+    "Indian": [
+        {
+            "title": "Rigveda",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Upanishads",
+            "gutenberg_id": 10850
+        },
+        {
+            "title": "Dhammapada",
+            "gutenberg_id": 14836
+        },
+        {
+            "title": "Bhagavad Gita",
+            "gutenberg_id": 16328
+        },
+        {
+            "title": "Lotus Sutra",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Bardo Thodol (Tebetan Book of the Dead)",
+            "gutenberg_id": null
+        }
+    ],
+    "Zarathustra": [
+        {
+            "title": "The Avesta, The Gathas",
+            "gutenberg_id": null
+        }
+    ],
+    "Various": [
+        {
+            "title": "The Hebrew Bible, The Book of Enoch",
+            "gutenberg_id": 10
+        },
+        {
+            "title": "Lotus Sutra",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The New Testament, Apocrypha",
+            "gutenberg_id": 10
+        },
+        {
+            "title": "The Quran",
+            "gutenberg_id": 7253
+        },
+        {
+            "title": "1001 Arabian Nights",
+            "gutenberg_id": 514
+        },
+        {
+            "title": "Supreme Court Decisions",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Federalist Papers",
+            "gutenberg_id": 1405
+        },
+        {
+            "title": "The United States Constitution",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The American Bill of Rights",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Rise of the Standard Model: A History of Particle Physics from 1964 to 1979",
+            "gutenberg_id": null
+        }
+    ],
+    "Homer": [
+        {
+            "title": "Illiad",
+            "gutenberg_id": 6130
+        },
+        {
+            "title": "Odyssey",
+            "gutenberg_id": 6140
+        }
+    ],
+    "Hesiod": [
+        {
+            "title": "Theogony",
+            "gutenberg_id": 13250
+        },
+        {
+            "title": "Works and Days",
+            "gutenberg_id": 13249
+        }
+    ],
+    "Sappho": [
+        {
+            "title": "Fragments",
+            "gutenberg_id": null
+        }
+    ],
+    "Aesop": [
+        {
+            "title": "Aesop's Fables",
+            "gutenberg_id": 19994
+        }
+    ],
+    "Aeschylus": [
+        {
+            "title": "Agamemnon",
+            "gutenberg_id": 1454
+        },
+        {
+            "title": "Libation Bearers",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Eumenides",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Prometheus Bound",
+            "gutenberg_id": 1456
+        }
+    ],
+    "Pindar": [
+        {
+            "title": "Odes",
+            "gutenberg_id": null
+        }
+    ],
+    "Herodotus": [
+        {
+            "title": "Histories",
+            "gutenberg_id": 2701
+        }
+    ],
+    "Euripedes": [
+        {
+            "title": "Medea",
+            "gutenberg_id": 1455
+        },
+        {
+            "title": "Hippolytus",
+            "gutenberg_id": 1453
+        },
+        {
+            "title": "The Bacchae",
+            "gutenberg_id": 1457
+        }
+    ],
+    "Sophocles": [
+        {
+            "title": "Oedipus Rex",
+            "gutenberg_id": 1643
+        },
+        {
+            "title": "Oedipus at Colonus",
+            "gutenberg_id": 1644
+        },
+        {
+            "title": "Antigone",
+            "gutenberg_id": 1642
+        },
+        {
+            "title": "Philoctetes",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Ajax",
+            "gutenberg_id": null
+        }
+    ],
+    "Thucydides": [
+        {
+            "title": "History of the Pelopennesian War",
+            "gutenberg_id": 7140
+        }
+    ],
+    "Aristophanes": [
+        {
+            "title": "The Knights",
+            "gutenberg_id": 7037
+        },
+        {
+            "title": "The Clouds",
+            "gutenberg_id": 1647
+        },
+        {
+            "title": "The Birds",
+            "gutenberg_id": 1649
+        },
+        {
+            "title": "Lysistrata",
+            "gutenberg_id": 1648
+        }
+    ],
+    "Hippocrates": [
+        {
+            "title": "The Hippocratic Corpus",
+            "gutenberg_id": null
+        }
+    ],
+    "Plato": [
+        {
+            "title": "Corpus Platonicum",
+            "gutenberg_id": null
+        }
+    ],
+    "Aristotle": [
+        {
+            "title": "Corpus Aristotelicum",
+            "gutenberg_id": null
+        }
+    ],
+    "Euclid": [
+        {
+            "title": "Elements",
+            "gutenberg_id": 21076
+        }
+    ],
+    "Menander": [
+        {
+            "title": "The Plays and Fragments",
+            "gutenberg_id": null
+        }
+    ],
+    "Manetho": [
+        {
+            "title": "History of Egypt and Other Works",
+            "gutenberg_id": null
+        }
+    ],
+    "Epicurus": [
+        {
+            "title": "Fragments",
+            "gutenberg_id": null
+        }
+    ],
+    "Archimedes": [
+        {
+            "title": "Collected Works",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Conics",
+            "gutenberg_id": 2516
+        }
+    ],
+    "Lucretius": [
+        {
+            "title": "On the Nature of Things",
+            "gutenberg_id": 4433
+        }
+    ],
+    "Catullus": [
+        {
+            "title": "Poems",
+            "gutenberg_id": 1473
+        }
+    ],
+    "Cicero": [
+        {
+            "title": "On the Commonwealth",
+            "gutenberg_id": 16989
+        },
+        {
+            "title": "On the Laws",
+            "gutenberg_id": 16774
+        }
+    ],
+    "Gaius Julius Caesar": [
+        {
+            "title": "Commentaries on the Gallic War",
+            "gutenberg_id": 106
+        }
+    ],
+    "Sallust": [
+        {
+            "title": "Catiline's War",
+            "gutenberg_id": 21566
+        },
+        {
+            "title": "The Jurgurthine War",
+            "gutenberg_id": 753
+        },
+        {
+            "title": "Histories",
+            "gutenberg_id": 753
+        }
+    ],
+    "Marcus Vitruvius Pollio": [
+        {
+            "title": "De architectura",
+            "gutenberg_id": 1984
+        }
+    ],
+    "Virgil": [
+        {
+            "title": "The Eclogues",
+            "gutenberg_id": 27376
+        },
+        {
+            "title": "The Gorgics",
+            "gutenberg_id": 1728
+        },
+        {
+            "title": "The Aeneid",
+            "gutenberg_id": 228
+        }
+    ],
+    "Ovid": [
+        {
+            "title": "Metamorphoses",
+            "gutenberg_id": 2600
+        }
+    ],
+    "Livy": [
+        {
+            "title": "Early History of Rome",
+            "gutenberg_id": 164
+        }
+    ],
+    "Jesus of Nazareth": [
+        {
+            "title": "Jeffersonian Bible",
+            "gutenberg_id": 8136
+        }
+    ],
+    "Seneca": [
+        {
+            "title": "On the Shortness of Life",
+            "gutenberg_id": 3700
+        },
+        {
+            "title": "Letters from a Stoic",
+            "gutenberg_id": 5500
+        }
+    ],
+    "Petronius": [
+        {
+            "title": "Satyricon",
+            "gutenberg_id": 164
+        }
+    ],
+    "Nicomachus": [
+        {
+            "title": "Arithmetic",
+            "gutenberg_id": null
+        }
+    ],
+    "Epictetus": [
+        {
+            "title": "Discourse",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Manual",
+            "gutenberg_id": null
+        }
+    ],
+    "Plutarch": [
+        {
+            "title": "Parallel Lives",
+            "gutenberg_id": 14034
+        }
+    ],
+    "Tacitus": [
+        {
+            "title": "Histories",
+            "gutenberg_id": 18162
+        },
+        {
+            "title": "Annals",
+            "gutenberg_id": 18162
+        },
+        {
+            "title": "Agricola",
+            "gutenberg_id": 18162
+        },
+        {
+            "title": "Germania",
+            "gutenberg_id": 18162
+        }
+    ],
+    "Ptolemy": [
+        {
+            "title": "Almagest",
+            "gutenberg_id": 10885
+        }
+    ],
+    "Marcus Aurelius": [
+        {
+            "title": "Meditations",
+            "gutenberg_id": 2680
+        }
+    ],
+    "Galen of Pergamon": [
+        {
+            "title": "On the Natural Faculties",
+            "gutenberg_id": null
+        }
+    ],
+    "Hermes Trismegistus": [
+        {
+            "title": "Corpus Hermeticum",
+            "gutenberg_id": null
+        }
+    ],
+    "Unknown": [
+        {
+            "title": "The Kama Sutra",
+            "gutenberg_id": 2296
+        },
+        {
+            "title": "Der Nibelungenlied",
+            "gutenberg_id": 1641
+        },
+        {
+            "title": "Sir Gawain and the Green Knight",
+            "gutenberg_id": 149
+        },
+        {
+            "title": "Beowulf",
+            "gutenberg_id": 16328
+        }
+    ],
+    "Plotinus": [
+        {
+            "title": "The Enneads",
+            "gutenberg_id": null
+        }
+    ],
+    "Iamblichus": [
+        {
+            "title": "On the Mysteries",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Theology of Arithmetic",
+            "gutenberg_id": null
+        }
+    ],
+    "Augustine of Hippo": [
+        {
+            "title": "Confessions",
+            "gutenberg_id": 17814
+        },
+        {
+            "title": "The City of God",
+            "gutenberg_id": 5345
+        },
+        {
+            "title": "On Christian Doctrine",
+            "gutenberg_id": 10443
+        }
+    ],
+    "Boethius": [
+        {
+            "title": "On the Consolation of Philosophy",
+            "gutenberg_id": 5644
+        }
+    ],
+    "Al-Shafi'i": [
+        {
+            "title": "Al-Risala (The Epistle on Legal Theory)",
+            "gutenberg_id": null
+        }
+    ],
+    "Muhammad ibn Musa al-Khwarizmi": [
+        {
+            "title": "The Compendious Book on Calculation by Completion and Balancing",
+            "gutenberg_id": null
+        }
+    ],
+    "Padmasambhava": [
+        {
+            "title": "Bardo Thodol (Tebetan Book of the Dead)",
+            "gutenberg_id": null
+        }
+    ],
+    "Imam Abul-Husain Muslim": [
+        {
+            "title": "Sahih Muslim (Hadith) [book 1]",
+            "gutenberg_id": null
+        }
+    ],
+    "Alfred the Great": [
+        {
+            "title": "Anglo-Saxon Chronicle",
+            "gutenberg_id": 5237
+        }
+    ],
+    "Abu Nasr al-Farabi": [
+        {
+            "title": "On the Perfect State",
+            "gutenberg_id": null
+        }
+    ],
+    "Ali Ibn Abu-Talib": [
+        {
+            "title": "Nahjul Balagha: Peak of Eloquence",
+            "gutenberg_id": null
+        }
+    ],
+    "Abu Ali ibn Sīna (Avicenna)": [
+        {
+            "title": "The Metaphysics of The Healing",
+            "gutenberg_id": null
+        }
+    ],
+    "Anselm of Canterbury": [
+        {
+            "title": "Proslogium",
+            "gutenberg_id": 1292
+        }
+    ],
+    "Abu Hamid Al-Ghazali": [
+        {
+            "title": "Incoherence of the Philosophers",
+            "gutenberg_id": 15674
+        },
+        {
+            "title": "The Revival of the Religious Sciences (The Fons Vitae Al-Ghazali Series)",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Alchemy of Happiness",
+            "gutenberg_id": null
+        }
+    ],
+    "Maimonides": [
+        {
+            "title": "The Guide for the Perplexed",
+            "gutenberg_id": 29765
+        }
+    ],
+    "Snorri Sturluson": [
+        {
+            "title": "Prose Edda",
+            "gutenberg_id": 2080
+        },
+        {
+            "title": "Heimskringla",
+            "gutenberg_id": 2081
+        }
+    ],
+    "Thomas of Britain, Béroul, Gottfried von Strassburg": [
+        {
+            "title": "Tristan and Iseult",
+            "gutenberg_id": 17009
+        }
+    ],
+    "Archbishop of Canterbury Stephen Langton": [
+        {
+            "title": "Magna Carta",
+            "gutenberg_id": 532
+        }
+    ],
+    "Jalal al-Din Rumi": [
+        {
+            "title": "The Essential Rumi (collected works)",
+            "gutenberg_id": null
+        }
+    ],
+    "Thomas Aquinas": [
+        {
+            "title": "Summa Theologica",
+            "gutenberg_id": 2200
+        },
+        {
+            "title": "Treatise on Divine Government",
+            "gutenberg_id": null
+        }
+    ],
+    "Marco Polo": [
+        {
+            "title": "The Travels of Marco Polo",
+            "gutenberg_id": 106
+        }
+    ],
+    "Dante Alighieri": [
+        {
+            "title": "The Divine Comedy",
+            "gutenberg_id": 8800
+        }
+    ],
+    "Giovanni Boccaccio": [
+        {
+            "title": "The Decameron",
+            "gutenberg_id": 207
+        }
+    ],
+    "Ibn Khaldun": [
+        {
+            "title": "Muqaddimah ('The Introduction')",
+            "gutenberg_id": null
+        }
+    ],
+    "Geoffrey Chaucer": [
+        {
+            "title": "Canterbury Tales",
+            "gutenberg_id": 2383
+        }
+    ],
+    "Sir Thomas Malory": [
+        {
+            "title": "Le Morte d'Arthur",
+            "gutenberg_id": 1053
+        }
+    ],
+    "Martin Luther": [
+        {
+            "title": "Ninety-five Theses",
+            "gutenberg_id": null
+        }
+    ],
+    "Niccolo Machiavelli": [
+        {
+            "title": "The Prince",
+            "gutenberg_id": 1232
+        },
+        {
+            "title": "Discourses",
+            "gutenberg_id": 5685
+        }
+    ],
+    "Heinrich Cornelius Agrippa": [
+        {
+            "title": "Three Books of Occult Philosophy",
+            "gutenberg_id": 106
+        }
+    ],
+    "Nicolaus Copernicus": [
+        {
+            "title": "On the Revolutions of the Spheres",
+            "gutenberg_id": null
+        }
+    ],
+    "Michel de Nostredame": [
+        {
+            "title": "Les Prophéties",
+            "gutenberg_id": null
+        }
+    ],
+    "Edmund Spencer": [
+        {
+            "title": "The Faerie Queene",
+            "gutenberg_id": 2554
+        }
+    ],
+    "Michel de Montaigne": [
+        {
+            "title": "Essayes",
+            "gutenberg_id": 15375
+        }
+    ],
+    "Francois Viete": [
+        {
+            "title": "Introduction to the Analytical Art",
+            "gutenberg_id": null
+        }
+    ],
+    "Miguel de Cervantes": [
+        {
+            "title": "Don Quixote",
+            "gutenberg_id": 996
+        }
+    ],
+    "William Shakespeare": [
+        {
+            "title": "Richard II",
+            "gutenberg_id": 1003
+        },
+        {
+            "title": "Henry IV",
+            "gutenberg_id": 1003
+        },
+        {
+            "title": "The Tempest",
+            "gutenberg_id": 1003
+        },
+        {
+            "title": "As You Like It",
+            "gutenberg_id": 1003
+        },
+        {
+            "title": "Hamlet",
+            "gutenberg_id": 1003
+        },
+        {
+            "title": "Othello",
+            "gutenberg_id": 1003
+        },
+        {
+            "title": "Macbeth",
+            "gutenberg_id": 1003
+        },
+        {
+            "title": "King Lear",
+            "gutenberg_id": 1003
+        },
+        {
+            "title": "Sonnets",
+            "gutenberg_id": 1003
+        },
+        {
+            "title": "A Midsummer Night's Dream",
+            "gutenberg_id": 1003
+        },
+        {
+            "title": "Romeo and Juliet",
+            "gutenberg_id": 1003
+        },
+        {
+            "title": "Much Ado About Nothing",
+            "gutenberg_id": 1003
+        },
+        {
+            "title": "Twelfth Night",
+            "gutenberg_id": 1003
+        }
+    ],
+    "Francis Bacon": [
+        {
+            "title": "Novum Organum",
+            "gutenberg_id": 228
+        },
+        {
+            "title": "Essays",
+            "gutenberg_id": 47334
+        }
+    ],
+    "Johannes Kepler": [
+        {
+            "title": "Epitome (IV, V)",
+            "gutenberg_id": null
+        }
+    ],
+    "William Harvey": [
+        {
+            "title": "Motion of the Heart and Blood",
+            "gutenberg_id": null
+        }
+    ],
+    "John Donne": [
+        {
+            "title": "Poems",
+            "gutenberg_id": 10441
+        }
+    ],
+    "Rene Descartes": [
+        {
+            "title": "Geometry",
+            "gutenberg_id": 8912
+        },
+        {
+            "title": "Discourses on Method",
+            "gutenberg_id": 8912
+        },
+        {
+            "title": "Meditations",
+            "gutenberg_id": 8912
+        },
+        {
+            "title": "Rules for the Direction of the Mind",
+            "gutenberg_id": 8912
+        }
+    ],
+    "Galileo Galilei": [
+        {
+            "title": "The Two Sciences",
+            "gutenberg_id": 7363
+        }
+    ],
+    "Blaise Pascal": [
+        {
+            "title": "Treatise on the Equilibrium of Liquids",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Generation of Conic Sections",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Pensées",
+            "gutenberg_id": 34338
+        }
+    ],
+    "John Dee": [
+        {
+            "title": "A True and Faithful Relation of What Passed for Many Years Between Dr. John Dee and Some Spirits",
+            "gutenberg_id": null
+        }
+    ],
+    "Moliere": [
+        {
+            "title": "Le Misanthrope",
+            "gutenberg_id": 17078
+        }
+    ],
+    "John Milton": [
+        {
+            "title": "Paradise Lost",
+            "gutenberg_id": 20
+        },
+        {
+            "title": "Collected poems",
+            "gutenberg_id": null
+        }
+    ],
+    "Thomas Hobbes": [
+        {
+            "title": "Leviathan",
+            "gutenberg_id": 3207
+        },
+        {
+            "title": "Of Commonwealth",
+            "gutenberg_id": null
+        }
+    ],
+    "Baruch Spinoza": [
+        {
+            "title": "Theologico-Political Treatise",
+            "gutenberg_id": 4347
+        },
+        {
+            "title": "The Foundations of a Moral Life",
+            "gutenberg_id": null
+        }
+    ],
+    "Jean Racine": [
+        {
+            "title": "Phedre",
+            "gutenberg_id": 10530
+        }
+    ],
+    "Andrew Marvel": [
+        {
+            "title": "Poems",
+            "gutenberg_id": null
+        }
+    ],
+    "Edme Mariotte": [
+        {
+            "title": "Essays",
+            "gutenberg_id": null
+        }
+    ],
+    "John Locke": [
+        {
+            "title": "On Civil Government",
+            "gutenberg_id": 10635
+        },
+        {
+            "title": "2nd Treatise of Government",
+            "gutenberg_id": 10635
+        }
+    ],
+    "Christian Huygens": [
+        {
+            "title": "Treatise on Light",
+            "gutenberg_id": null
+        },
+        {
+            "title": "On the Movement of Bodies by Impact",
+            "gutenberg_id": null
+        }
+    ],
+    "Jean de La Fontaine": [
+        {
+            "title": "Fables",
+            "gutenberg_id": 207
+        }
+    ],
+    "Louis Armand de Lom d’Arce, baron de Lahontan": [
+        {
+            "title": "New voyages to North-America",
+            "gutenberg_id": null
+        }
+    ],
+    "Gottfried Leibniz": [
+        {
+            "title": "Monadology",
+            "gutenberg_id": 1116
+        },
+        {
+            "title": "Discourse on Metaphysics",
+            "gutenberg_id": 2128
+        },
+        {
+            "title": "Essay on Dynamics",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Philosophical Essays",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Principles of Nature and Grace",
+            "gutenberg_id": null
+        }
+    ],
+    "Brook Taylor": [
+        {
+            "title": "In Methodus Incrementorum",
+            "gutenberg_id": null
+        }
+    ],
+    "Daniel Bernoulli": [
+        {
+            "title": "Essays",
+            "gutenberg_id": null
+        }
+    ],
+    "Isaac Newton": [
+        {
+            "title": "Philosophiæ Naturalis Principia Mathematica",
+            "gutenberg_id": 28251
+        },
+        {
+            "title": "Opticks",
+            "gutenberg_id": 4990
+        }
+    ],
+    "Jonathan Swift": [
+        {
+            "title": "Gulliver's Travels",
+            "gutenberg_id": 829
+        }
+    ],
+    "Gabriel Fahrenheit": [
+        {
+            "title": "Treatise",
+            "gutenberg_id": null
+        }
+    ],
+    "Leonhard Euler": [
+        {
+            "title": "Mechanica",
+            "gutenberg_id": null
+        }
+    ],
+    "David Hume": [
+        {
+            "title": "Treatise of Human Nature",
+            "gutenberg_id": 2400
+        }
+    ],
+    "Charles de Secondat, Baron de Montesquieu": [
+        {
+            "title": "The Spirit of the Laws",
+            "gutenberg_id": 227
+        }
+    ],
+    "Voltaire": [
+        {
+            "title": "Candide",
+            "gutenberg_id": 19942
+        }
+    ],
+    "Jean-Jacques Rousseau": [
+        {
+            "title": "Social Contract",
+            "gutenberg_id": 46338
+        },
+        {
+            "title": "The Origin of Inequality",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Confessions",
+            "gutenberg_id": null
+        }
+    ],
+    "Johan Wolfgang von Goethe": [
+        {
+            "title": "Faust",
+            "gutenberg_id": 2227
+        }
+    ],
+    "Adam Smith": [
+        {
+            "title": "Wealth of Nations",
+            "gutenberg_id": 3300
+        }
+    ],
+    "Thomas Paine": [
+        {
+            "title": "Common Sense",
+            "gutenberg_id": 147
+        }
+    ],
+    "Hamilton, Madison, Jay": [
+        {
+            "title": "Articles of Confederation",
+            "gutenberg_id": null
+        }
+    ],
+    "Immanuel Kant": [
+        {
+            "title": "Critique of Pure Reason",
+            "gutenberg_id": 4280
+        },
+        {
+            "title": "Foundations of the Metaphysics of Morals",
+            "gutenberg_id": null
+        }
+    ],
+    "Edward Gibbon": [
+        {
+            "title": "The History of the Decline and Fall of the Roman Empire",
+            "gutenberg_id": 4433
+        }
+    ],
+    "Joseph-Louis Lagrange": [
+        {
+            "title": "Mécanique Analytique",
+            "gutenberg_id": null
+        }
+    ],
+    "Antoine Lavoisier": [
+        {
+            "title": "Elementary Treatises of Elements",
+            "gutenberg_id": null
+        }
+    ],
+    "Mary Wollstonecraft": [
+        {
+            "title": "A Vindication of the Rights of Woman",
+            "gutenberg_id": 1720
+        }
+    ],
+    "William Wordsworth": [
+        {
+            "title": "The Two-Part Prelude",
+            "gutenberg_id": 14628
+        }
+    ],
+    "John Dalton": [
+        {
+            "title": "Atomic Theory",
+            "gutenberg_id": null
+        }
+    ],
+    "George Wilhelm Friedrich Hegel": [
+        {
+            "title": "Phenomenology of Spirit",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Science of Logic",
+            "gutenberg_id": null
+        }
+    ],
+    "Thomas Young": [
+        {
+            "title": "Natural Philosophy and Mechanical Arts",
+            "gutenberg_id": null
+        }
+    ],
+    "Jane Austen": [
+        {
+            "title": "Pride and Prejudice",
+            "gutenberg_id": 1342
+        },
+        {
+            "title": "Emma",
+            "gutenberg_id": 158
+        }
+    ],
+    "Francois de La Rochefoucauld": [
+        {
+            "title": "Maximes",
+            "gutenberg_id": null
+        }
+    ],
+    "Hans Christian Orsted": [
+        {
+            "title": "Essays",
+            "gutenberg_id": null
+        }
+    ],
+    "Amedeo Avogadro": [
+        {
+            "title": "Papers",
+            "gutenberg_id": null
+        }
+    ],
+    "Michael Faraday": [
+        {
+            "title": "Essays",
+            "gutenberg_id": null
+        }
+    ],
+    "Joseph Louis Gay Lussac": [
+        {
+            "title": "Lessons of Physics",
+            "gutenberg_id": null
+        }
+    ],
+    "Nikolai Ivanovich Lobachevsky": [
+        {
+            "title": "Theory of Parallels",
+            "gutenberg_id": null
+        }
+    ],
+    "Alexis de Tocqueville": [
+        {
+            "title": "Democracy in America",
+            "gutenberg_id": 735
+        }
+    ],
+    "Alexandre Dumas": [
+        {
+            "title": "The Count of Monte Cristo",
+            "gutenberg_id": 1184
+        }
+    ],
+    "Soren Kierkegaard": [
+        {
+            "title": "Philosophical fragments",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Fear and Trembling",
+            "gutenberg_id": null
+        }
+    ],
+    "Dudolf Virchow": [
+        {
+            "title": "Pathology",
+            "gutenberg_id": null
+        }
+    ],
+    "Edgar Allen Poe": [
+        {
+            "title": "Collected Works",
+            "gutenberg_id": 1068
+        }
+    ],
+    "George Boole": [
+        {
+            "title": "The Laws of Thought",
+            "gutenberg_id": 3095
+        }
+    ],
+    "Henry David Thoreau": [
+        {
+            "title": "Walden",
+            "gutenberg_id": 205
+        },
+        {
+            "title": "On the Duty of Civil Disobedience",
+            "gutenberg_id": 16643
+        }
+    ],
+    "Herman Melville": [
+        {
+            "title": "Benito Cereno",
+            "gutenberg_id": 2701
+        },
+        {
+            "title": "Adventures of Huckleberry Finn",
+            "gutenberg_id": 76
+        }
+    ],
+    "Charles Baudelaine": [
+        {
+            "title": "Les Fleurs du Mal",
+            "gutenberg_id": 15288
+        }
+    ],
+    "Gustave Flaubert": [
+        {
+            "title": "Madame Bovary",
+            "gutenberg_id": 2413
+        }
+    ],
+    "Charles Darwin": [
+        {
+            "title": "The Origin of Species",
+            "gutenberg_id": 1228
+        }
+    ],
+    "John Stuart Mill": [
+        {
+            "title": "On Liberty",
+            "gutenberg_id": 3491
+        },
+        {
+            "title": "The Subjection of Women",
+            "gutenberg_id": 16233
+        }
+    ],
+    "Richard Wagner": [
+        {
+            "title": "Tristan Isolde",
+            "gutenberg_id": null
+        }
+    ],
+    "Abraham Lincoln": [
+        {
+            "title": "Speeches",
+            "gutenberg_id": null
+        }
+    ],
+    "Lewis Carroll": [
+        {
+            "title": "Alice's Adventures in Wonderland",
+            "gutenberg_id": 11
+        },
+        {
+            "title": "Through the Looking-Glass",
+            "gutenberg_id": 12
+        }
+    ],
+    "Gregor Mendel": [
+        {
+            "title": "Genetics",
+            "gutenberg_id": null
+        }
+    ],
+    "William Rowan Hamilton": [
+        {
+            "title": "Elements of Quaternions",
+            "gutenberg_id": null
+        }
+    ],
+    "Leo Tolstoy": [
+        {
+            "title": "War and Peace",
+            "gutenberg_id": 2600
+        }
+    ],
+    "George Eliot": [
+        {
+            "title": "Middlemarch",
+            "gutenberg_id": 1488
+        }
+    ],
+    "James Clerk Maxwell": [
+        {
+            "title": "A Treatise on E&M",
+            "gutenberg_id": null
+        }
+    ],
+    "Fyodor Dostoevsky": [
+        {
+            "title": "Brothers Karamozov",
+            "gutenberg_id": 28054
+        },
+        {
+            "title": "Notes from the Underground",
+            "gutenberg_id": 5666
+        },
+        {
+            "title": "Demons",
+            "gutenberg_id": 2542
+        }
+    ],
+    "Dmitri Mendeleev": [
+        {
+            "title": "Periodic Elements",
+            "gutenberg_id": null
+        }
+    ],
+    "Ignatius L. Donnelly": [
+        {
+            "title": "Atlantis: The Antediluvian World",
+            "gutenberg_id": 161
+        }
+    ],
+    "Karl Marx": [
+        {
+            "title": "Capital",
+            "gutenberg_id": 2280
+        },
+        {
+            "title": "German Ideology",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Communist Manifesto",
+            "gutenberg_id": 61
+        }
+    ],
+    "Edwin Abbott Abbott": [
+        {
+            "title": "Flatland",
+            "gutenberg_id": 201
+        }
+    ],
+    "Mark Twain": [
+        {
+            "title": "Adventures of Huckleberry Finn",
+            "gutenberg_id": 76
+        }
+    ],
+    "Friedrich Nietzsche": [
+        {
+            "title": "The Religious Mood",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Natural History of Morals",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Beyond Good and Evil",
+            "gutenberg_id": 5234
+        },
+        {
+            "title": "Thus Spoke Zarathustra",
+            "gutenberg_id": 1998
+        }
+    ],
+    "Ulysses S. Grant": [
+        {
+            "title": "Personal Memoirs of U. S. Grant",
+            "gutenberg_id": null
+        }
+    ],
+    "Arthur Rimbaud": [
+        {
+            "title": "Illuminations",
+            "gutenberg_id": null
+        }
+    ],
+    "Robert E. Lee, A. L. Long": [
+        {
+            "title": "Memoirs of Robert E. Lee",
+            "gutenberg_id": null
+        }
+    ],
+    "Sir James George Frazer": [
+        {
+            "title": "The Golden Bough",
+            "gutenberg_id": 22754
+        }
+    ],
+    "Frederick Douglas": [
+        {
+            "title": "Speeches",
+            "gutenberg_id": null
+        }
+    ],
+    "Theodor Herzl": [
+        {
+            "title": "Der Judenstaat",
+            "gutenberg_id": null
+        }
+    ],
+    "Joseph Conrad": [
+        {
+            "title": "Heart of Darkness",
+            "gutenberg_id": 526
+        },
+        {
+            "title": "Nostromo",
+            "gutenberg_id": 1068
+        }
+    ],
+    "Hans Driesch": [
+        {
+            "title": "Embryology",
+            "gutenberg_id": null
+        }
+    ],
+    "Sir Arthur Conan Doyle": [
+        {
+            "title": "Sherlock Holmes",
+            "gutenberg_id": 1661
+        }
+    ],
+    "Theodor Boveri": [
+        {
+            "title": "Cancerous Tumors",
+            "gutenberg_id": null
+        }
+    ],
+    "Walter Sutton": [
+        {
+            "title": "Boveri-Sutton Chromosome",
+            "gutenberg_id": null
+        }
+    ],
+    "William James": [
+        {
+            "title": "The Varieties of Religious Experience",
+            "gutenberg_id": 164
+        }
+    ],
+    "W.E.B. De Bois": [
+        {
+            "title": "The Souls of Black Folk",
+            "gutenberg_id": 408
+        }
+    ],
+    "Anton Chekhov": [
+        {
+            "title": "Collected Works",
+            "gutenberg_id": 18485
+        }
+    ],
+    "Ernest Rutherford": [
+        {
+            "title": "Disintegration of the Radioactive Elements",
+            "gutenberg_id": null
+        }
+    ],
+    "J.J. Thompson": [
+        {
+            "title": "Essays",
+            "gutenberg_id": null
+        }
+    ],
+    "Booker T. Washington": [
+        {
+            "title": "Up from Slavery",
+            "gutenberg_id": 148
+        },
+        {
+            "title": "The Negro in the South",
+            "gutenberg_id": null
+        }
+    ],
+    "Herman Minkowski": [
+        {
+            "title": "Relativity",
+            "gutenberg_id": null
+        }
+    ],
+    "Alfred Lansing": [
+        {
+            "title": "Endurance: Shackleton's Incredible Voyage",
+            "gutenberg_id": null
+        }
+    ],
+    "Franz Kafka": [
+        {
+            "title": "The Metamorphosis",
+            "gutenberg_id": 5200
+        },
+        {
+            "title": "The Trial",
+            "gutenberg_id": 7849
+        },
+        {
+            "title": "The Castle",
+            "gutenberg_id": 14838
+        }
+    ],
+    "Albert Einstein": [
+        {
+            "title": "The Problems of Space, Ether and the Field in Physics",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Relativity",
+            "gutenberg_id": null
+        }
+    ],
+    "Paul Valery": [
+        {
+            "title": "La Jeune Parque",
+            "gutenberg_id": null
+        }
+    ],
+    "Sigmund Freud": [
+        {
+            "title": "The Interpretation of Dreams",
+            "gutenberg_id": 15489
+        },
+        {
+            "title": "Introductory Lectures on Psychoanalysis",
+            "gutenberg_id": 17628
+        }
+    ],
+    "Konstantin Tsiolkowsky": [
+        {
+            "title": "Beyond the Planet Earth",
+            "gutenberg_id": null
+        }
+    ],
+    "Hermann Weyl": [
+        {
+            "title": "Space, Time, Matter",
+            "gutenberg_id": null
+        }
+    ],
+    "James Joyce": [
+        {
+            "title": "Ulysses",
+            "gutenberg_id": 4300
+        },
+        {
+            "title": "Dubliners",
+            "gutenberg_id": 2814
+        },
+        {
+            "title": "A Portrait of the Artist as a Young Man",
+            "gutenberg_id": 4300
+        }
+    ],
+    "Niels Bohr": [
+        {
+            "title": "Atomic Essays",
+            "gutenberg_id": null
+        }
+    ],
+    "W.B. Yeats": [
+        {
+            "title": "Collected Works",
+            "gutenberg_id": null
+        }
+    ],
+    "Lois de Broglie": [
+        {
+            "title": "Research on Quantum Theory",
+            "gutenberg_id": null
+        }
+    ],
+    "Thomas Mann": [
+        {
+            "title": "The Magic Mountain",
+            "gutenberg_id": 22430
+        }
+    ],
+    "Adolf Hitler": [
+        {
+            "title": "Mein Kampf",
+            "gutenberg_id": null
+        }
+    ],
+    "F. Scott Fitzgerald": [
+        {
+            "title": "The Great Gatsby",
+            "gutenberg_id": 64317
+        }
+    ],
+    "Virginia Woolf": [
+        {
+            "title": "Mrs. Dalloway",
+            "gutenberg_id": 5200
+        },
+        {
+            "title": "To the Lighthouse",
+            "gutenberg_id": 5200
+        },
+        {
+            "title": "A Room of One's Own",
+            "gutenberg_id": 5200
+        }
+    ],
+    "Werner Heisenberg": [
+        {
+            "title": "Quantum Theory",
+            "gutenberg_id": null
+        }
+    ],
+    "T. E. Lawrence": [
+        {
+            "title": "Seven Pillars of Wisdom",
+            "gutenberg_id": null
+        }
+    ],
+    "Marcel Proust": [
+        {
+            "title": "In Search of Lost Time",
+            "gutenberg_id": null
+        }
+    ],
+    "Erich Maria Remarque": [
+        {
+            "title": "All Quiet on the Western Front",
+            "gutenberg_id": 9100
+        }
+    ],
+    "Hemingway": [
+        {
+            "title": "For whom the Bell Tolls",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Farewell to Arms",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Sun Also Rises",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Old Man and the Sea",
+            "gutenberg_id": null
+        }
+    ],
+    "Carl Jung": [
+        {
+            "title": "Modern Man in Search of a Soul",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Red Book",
+            "gutenberg_id": null
+        }
+    ],
+    "Paul Dirac": [
+        {
+            "title": "The Principles of Quantum Mechanics",
+            "gutenberg_id": null
+        }
+    ],
+    "Aldous Huxley": [
+        {
+            "title": "Brave New World",
+            "gutenberg_id": 5230
+        },
+        {
+            "title": "The Doors of Perception",
+            "gutenberg_id": 17302
+        }
+    ],
+    "Erwin Schrodinger": [
+        {
+            "title": "Quantum Mechanics",
+            "gutenberg_id": null
+        }
+    ],
+    "Thomas Hunt Morgan": [
+        {
+            "title": "Chromosome Heredity",
+            "gutenberg_id": null
+        }
+    ],
+    "E. E. Cummings": [
+        {
+            "title": "Poems and other works",
+            "gutenberg_id": null
+        }
+    ],
+    "T. S. Elliot": [
+        {
+            "title": "Poems",
+            "gutenberg_id": 1348
+        }
+    ],
+    "Edmund Husserl": [
+        {
+            "title": "Crisis of the European Sciences",
+            "gutenberg_id": null
+        }
+    ],
+    "John Maynard Keynes": [
+        {
+            "title": "The General Theory of Employment, Interest and Money",
+            "gutenberg_id": 1989
+        }
+    ],
+    "Clinton Davisson": [
+        {
+            "title": "Electron Diffraction",
+            "gutenberg_id": null
+        }
+    ],
+    "Agatha Christie": [
+        {
+            "title": "And Then There Were None",
+            "gutenberg_id": 131
+        }
+    ],
+    "John Steinbeck": [
+        {
+            "title": "The Grapes of Wrath",
+            "gutenberg_id": 2478
+        }
+    ],
+    "G.H. Hardy": [
+        {
+            "title": "A Mathematician's Apology",
+            "gutenberg_id": 1639
+        }
+    ],
+    "Alber Camus": [
+        {
+            "title": "The Stranger",
+            "gutenberg_id": 7000
+        },
+        {
+            "title": "The Plague",
+            "gutenberg_id": 22320
+        },
+        {
+            "title": "The Myth of Sisyphus",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Fall",
+            "gutenberg_id": 2208
+        },
+        {
+            "title": "The Rebel.",
+            "gutenberg_id": null
+        }
+    ],
+    "Martin Heidegger": [
+        {
+            "title": "Basic Writings",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Being and Time",
+            "gutenberg_id": null
+        }
+    ],
+    "William Faulkner": [
+        {
+            "title": "Go Down Moses",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Sound and the Fury",
+            "gutenberg_id": null
+        },
+        {
+            "title": "As I Lay Dying",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Absalom, Absalom!",
+            "gutenberg_id": null
+        }
+    ],
+    "Friedrich Hayek": [
+        {
+            "title": "The Road to Serfdom",
+            "gutenberg_id": 17556
+        }
+    ],
+    "J. D. Salinger": [
+        {
+            "title": "The Catcher in the Rye",
+            "gutenberg_id": null
+        }
+    ],
+    "Viktor E. Frankl": [
+        {
+            "title": "Man's Search for Meaning",
+            "gutenberg_id": null
+        }
+    ],
+    "Anne Frank": [
+        {
+            "title": "The Diary of a Young Girl",
+            "gutenberg_id": 7336
+        }
+    ],
+    "Erich Neumann": [
+        {
+            "title": "The Origins and History of Consciousness",
+            "gutenberg_id": null
+        }
+    ],
+    "George Orwell": [
+        {
+            "title": "Nineteen Eighty-Four",
+            "gutenberg_id": 5470
+        },
+        {
+            "title": "Animal Farm",
+            "gutenberg_id": 2701
+        },
+        {
+            "title": "Road to Wigan Pier",
+            "gutenberg_id": 844
+        },
+        {
+            "title": "Homage to Catalonia",
+            "gutenberg_id": 2701
+        }
+    ],
+    "J.R.R. Tolkien": [
+        {
+            "title": "The Lord of the Rings",
+            "gutenberg_id": 45587
+        }
+    ],
+    "Ludwig von Mises": [
+        {
+            "title": "Human Action: A Treatise on Economics",
+            "gutenberg_id": null
+        }
+    ],
+    "Alan Turing": [
+        {
+            "title": "Computing Machinery and Intelligence",
+            "gutenberg_id": null
+        }
+    ],
+    "Hannah Arendt": [
+        {
+            "title": "The Origins of Totalitarianism",
+            "gutenberg_id": null
+        }
+    ],
+    "Flannery O'Conner": [
+        {
+            "title": "Wise Blood",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Violent Bear it Away",
+            "gutenberg_id": null
+        }
+    ],
+    "Ralph Ellison": [
+        {
+            "title": "Invisible Man",
+            "gutenberg_id": null
+        }
+    ],
+    "Vladimir Nabokov": [
+        {
+            "title": "Lolita",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Pale Fire",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Speak Memory",
+            "gutenberg_id": null
+        }
+    ],
+    "Wallace Stevens": [
+        {
+            "title": "Poems",
+            "gutenberg_id": 16322
+        }
+    ],
+    "Elie Wiesel": [
+        {
+            "title": "Night",
+            "gutenberg_id": null
+        }
+    ],
+    "Ayn Rand": [
+        {
+            "title": "Anthem",
+            "gutenberg_id": 10851
+        },
+        {
+            "title": "Fountainhead",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Atlas Shrugged",
+            "gutenberg_id": null
+        }
+    ],
+    "Jack Kerouac": [
+        {
+            "title": "On the Road",
+            "gutenberg_id": null
+        }
+    ],
+    "Chinua Achebe": [
+        {
+            "title": "Things Fall Apart",
+            "gutenberg_id": null
+        }
+    ],
+    "George Beadle & Edward Tatum": [
+        {
+            "title": "Genes Biochemical Events",
+            "gutenberg_id": null
+        }
+    ],
+    "Harper Lee": [
+        {
+            "title": "To Kill a Mockingbird",
+            "gutenberg_id": null
+        }
+    ],
+    "Carl Rogers": [
+        {
+            "title": "On Becoming a Person: A Therapist's View of Psychotherapy",
+            "gutenberg_id": null
+        }
+    ],
+    "Joseph Heller": [
+        {
+            "title": "Catch 22",
+            "gutenberg_id": null
+        }
+    ],
+    "Anthony Burgess": [
+        {
+            "title": "A Clockwork Orange",
+            "gutenberg_id": null
+        }
+    ],
+    "Philip K. Dick": [
+        {
+            "title": "The Man in the High Castle",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Collected Short Stories",
+            "gutenberg_id": null
+        }
+    ],
+    "Rachel Carson": [
+        {
+            "title": "Silent Spring",
+            "gutenberg_id": null
+        }
+    ],
+    "Thomas S. Kuhn": [
+        {
+            "title": "The Structure of Scientific Revolutions",
+            "gutenberg_id": null
+        }
+    ],
+    "Martin Luther King": [
+        {
+            "title": "Speeches and Sermons",
+            "gutenberg_id": null
+        }
+    ],
+    "Richard Dedekind": [
+        {
+            "title": "Essay on the Theory of Numbers",
+            "gutenberg_id": null
+        }
+    ],
+    "Marshall McLuhan": [
+        {
+            "title": "Understanding Media",
+            "gutenberg_id": null
+        }
+    ],
+    "Richard Feynman": [
+        {
+            "title": "The Feynman Lectures on Physics",
+            "gutenberg_id": 5685
+        }
+    ],
+    "Francois jacob & Jacques Monod": [
+        {
+            "title": "Enzyme and Virus",
+            "gutenberg_id": null
+        }
+    ],
+    "Malcom X, Alex Haley": [
+        {
+            "title": "The Autobiography of Malcolm X",
+            "gutenberg_id": null
+        }
+    ],
+    "Mao Tse-tung": [
+        {
+            "title": "Little Red Book",
+            "gutenberg_id": null
+        }
+    ],
+    "Robert Masters, Jean Houston": [
+        {
+            "title": "The Varieties of Psychedelic Experience: The Classic Guide to the Effects of LSD on the Human Psyche",
+            "gutenberg_id": null
+        }
+    ],
+    "Truman Capote": [
+        {
+            "title": "In Cold Blood",
+            "gutenberg_id": null
+        }
+    ],
+    "Gabriel Garcia Marquez": [
+        {
+            "title": "One Hundred Years of Solitude",
+            "gutenberg_id": null
+        }
+    ],
+    "Mikhail Bulgakov": [
+        {
+            "title": "The Master and the Margarita",
+            "gutenberg_id": null
+        }
+    ],
+    "Tom Wolfe": [
+        {
+            "title": "The Electric Kool-Aid Acid Test",
+            "gutenberg_id": null
+        }
+    ],
+    "Maya Angelou": [
+        {
+            "title": "I Know Why the Caged Bird Sings",
+            "gutenberg_id": null
+        }
+    ],
+    "John Marco Allegro": [
+        {
+            "title": "The Sacred Mushroom and the Cross",
+            "gutenberg_id": null
+        }
+    ],
+    "Hunter S. Thompson": [
+        {
+            "title": "Fear and Loathing in Las Vegas",
+            "gutenberg_id": null
+        }
+    ],
+    "John Drury Clark": [
+        {
+            "title": "Ignition! An Informal History of Liquid Rocket Propellants",
+            "gutenberg_id": null
+        }
+    ],
+    "R. Gordon Wasson": [
+        {
+            "title": "Soma: Divine Mushroom of Immortality",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Road to Eleusis: Unveiling the Secret of the Mysteries",
+            "gutenberg_id": null
+        }
+    ],
+    "Aleksandr Solzhenitsyn": [
+        {
+            "title": "The Gulag Archipelago",
+            "gutenberg_id": null
+        }
+    ],
+    "Robert M. Pirsig": [
+        {
+            "title": "Zen and the Art of Motorcycle Maintenance",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Lila: An Inquiry into Morals",
+            "gutenberg_id": null
+        }
+    ],
+    "Derek De Solla Price": [
+        {
+            "title": "Science Since Babylon",
+            "gutenberg_id": null
+        }
+    ],
+    "Gerard K. O'Neill": [
+        {
+            "title": "The High Frontier: Human Colonies in Space",
+            "gutenberg_id": null
+        }
+    ],
+    "Julian Jaynes": [
+        {
+            "title": "The Origin of Consciousness in the Breakdown of the Bicameral Mind",
+            "gutenberg_id": null
+        }
+    ],
+    "Richard Dawkins": [
+        {
+            "title": "The Selfish Gene",
+            "gutenberg_id": 19016
+        }
+    ],
+    "Michael Herr": [
+        {
+            "title": "Dispatches",
+            "gutenberg_id": null
+        }
+    ],
+    "Václav Havel": [
+        {
+            "title": "The Power of the Powerless",
+            "gutenberg_id": null
+        }
+    ],
+    "Douglas Adams": [
+        {
+            "title": "The Hitchhiker's Guide to the Galaxy",
+            "gutenberg_id": 999
+        }
+    ],
+    "Douglas Hofstadter": [
+        {
+            "title": "Gödel, Escher, Bach: An Eternal Golden Braid",
+            "gutenberg_id": null
+        }
+    ],
+    "Alasdair MacIntyre": [
+        {
+            "title": "After Virtue",
+            "gutenberg_id": null
+        }
+    ],
+    "Jonathan Schell": [
+        {
+            "title": "The Fate of the Earth",
+            "gutenberg_id": null
+        }
+    ],
+    "William Gibson": [
+        {
+            "title": "Neuromancer (Sprawl Trilogy)",
+            "gutenberg_id": null
+        }
+    ],
+    "Gerald Jay Sussman": [
+        {
+            "title": "Structure and Interpretations of Computer Programs",
+            "gutenberg_id": null
+        }
+    ],
+    "James D. Watson & Francis Crick": [
+        {
+            "title": "Double Helix Structure",
+            "gutenberg_id": null
+        }
+    ],
+    "Margaret Atwood": [
+        {
+            "title": "The Handmaid's Tale",
+            "gutenberg_id": null
+        }
+    ],
+    "Neil Postman": [
+        {
+            "title": "Amusing Ourselves to Death",
+            "gutenberg_id": null
+        }
+    ],
+    "Alan Bloom": [
+        {
+            "title": "The Closing of the American Mind",
+            "gutenberg_id": null
+        }
+    ],
+    "Bevin Alexander": [
+        {
+            "title": "Korea: The First War We Lost",
+            "gutenberg_id": null
+        }
+    ],
+    "Toni Morrison": [
+        {
+            "title": "Beloved",
+            "gutenberg_id": null
+        }
+    ],
+    "Stephen Hawking": [
+        {
+            "title": "A Brief History of Time",
+            "gutenberg_id": null
+        }
+    ],
+    "Frans B. M. de Waal": [
+        {
+            "title": "Peacemaking among Primates",
+            "gutenberg_id": null
+        }
+    ],
+    "Christopher R. Browning": [
+        {
+            "title": "Ordinary Men",
+            "gutenberg_id": null
+        }
+    ],
+    "Terence McKenna": [
+        {
+            "title": "Food of the Gods",
+            "gutenberg_id": null
+        },
+        {
+            "title": "True Hallucinations",
+            "gutenberg_id": null
+        }
+    ],
+    "Graham Hancock": [
+        {
+            "title": "Fingerprints of the Gods",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Supernatural",
+            "gutenberg_id": null
+        },
+        {
+            "title": "America Before",
+            "gutenberg_id": null
+        }
+    ],
+    "Donald Brown": [
+        {
+            "title": "Human Universals",
+            "gutenberg_id": null
+        }
+    ],
+    "Jared Diamond": [
+        {
+            "title": "Guns Germs and Steel",
+            "gutenberg_id": null
+        }
+    ],
+    "E. O. Wilson": [
+        {
+            "title": "Consilience: The Unity of Knowledge",
+            "gutenberg_id": null
+        }
+    ],
+    "Jaak Panksepp": [
+        {
+            "title": "Affective Neuroscience",
+            "gutenberg_id": null
+        }
+    ],
+    "Jordan B. Peterson": [
+        {
+            "title": "Maps of Meaning",
+            "gutenberg_id": null
+        }
+    ],
+    "Rick Strassman": [
+        {
+            "title": "DMT: The Spirit Molecule",
+            "gutenberg_id": null
+        }
+    ],
+    "Stephan Wolfram": [
+        {
+            "title": "A New Kind Of Science",
+            "gutenberg_id": 2619
+        }
+    ],
+    "Jeffrey A. Gray, Neil McNaughton": [
+        {
+            "title": "The Neuropsychology of Anxiety: An Enquiry into the Functions of the Septo-Hippocampal System",
+            "gutenberg_id": null
+        }
+    ],
+    "Paul Gilster": [
+        {
+            "title": "Centauri Dreams: Imagining and Planning Interstellar Exploration",
+            "gutenberg_id": null
+        }
+    ],
+    "Sir Roger Penrose": [
+        {
+            "title": "The Road to Reality",
+            "gutenberg_id": null
+        }
+    ],
+    "Nassim Nicholas Taleb": [
+        {
+            "title": "Incerto: Fooled by Randomness",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Black Swan",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Bed of Procrustes",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Antifragile",
+            "gutenberg_id": null
+        },
+        {
+            "title": "Skin in the Game",
+            "gutenberg_id": null
+        }
+    ],
+    "Timothy Gowers et al.": [
+        {
+            "title": "The Princeton Companion to Mathematics",
+            "gutenberg_id": null
+        }
+    ],
+    "Yuval Noah Harari": [
+        {
+            "title": "Sapiens: A Brief History of Humankind",
+            "gutenberg_id": null
+        }
+    ],
+    "David Graeber": [
+        {
+            "title": "Debt: The First 5000 Years",
+            "gutenberg_id": null
+        }
+    ],
+    "Edward Frenke": [
+        {
+            "title": "Love & Math",
+            "gutenberg_id": null
+        }
+    ],
+    "Paul Beatty": [
+        {
+            "title": "The Sellout",
+            "gutenberg_id": null
+        }
+    ],
+    "Sam Harris": [
+        {
+            "title": "Waking Up: A Guide to Spirituality Without Religion",
+            "gutenberg_id": null
+        }
+    ],
+    "Ross Goodwin": [
+        {
+            "title": "1 the Road",
+            "gutenberg_id": null
+        }
+    ],
+    "Jonathan Haidt, Greg Lukianoff": [
+        {
+            "title": "The Coddling of the American Mind",
+            "gutenberg_id": null
+        }
+    ],
+    "Michael Pollan": [
+        {
+            "title": "How to Change Your Mind",
+            "gutenberg_id": null
+        }
+    ],
+    "Douglas Murray": [
+        {
+            "title": "The Madness of Crowds",
+            "gutenberg_id": null
+        },
+        {
+            "title": "The Strange Death of Europe",
+            "gutenberg_id": null
+        }
+    ],
+    "Anne Case, Angus Deaton": [
+        {
+            "title": "Deaths of Despair and the Future of Capitalism",
+            "gutenberg_id": null
+        }
+    ],
+    "Brian C. Muraresku": [
+        {
+            "title": "The Immortality Key: The Secret History of the Religion with No Name",
+            "gutenberg_id": null
+        }
+    ],
+    "Gad Saad": [
+        {
+            "title": "The Parasitic Mind: How Infectious Ideas Are Killing Common Sense",
+            "gutenberg_id": null
+        }
+    ],
+    "Christopher E. Mason": [
+        {
+            "title": "The Next 500 Years: Engineering Life To Reach New Worlds",
+            "gutenberg_id": null
+        }
+    ],
+    "David Graeber, David Wengrow": [
+        {
+            "title": "The Dawn of Everything: A New History of Humanity",
+            "gutenberg_id": null
+        }
+    ],
+    "Heather Heying, Bret Weinstein": [
+        {
+            "title": "A Hunter-Gatherer's Guide to the 21st Century",
+            "gutenberg_id": null
+        }
+    ],
+    "Balaji S. Srinivasan": [
+        {
+            "title": "The Network State: How To Start a New Country",
+            "gutenberg_id": null
+        }
+    ]
+}
