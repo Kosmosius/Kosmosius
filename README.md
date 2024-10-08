@@ -3,7 +3,6 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-Transformers-blue)
 ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
-![GitHub Actions](https://github.com/yourusername/Kosmosius/workflows/CI/badge.svg)
 
 **Kosmosius** is a project dedicated to fine-tuning a Large Language Model (LLM) on a curated corpus of great literature using HuggingFace's Transformers and PEFT (Parameter-Efficient Fine-Tuning) techniques. Leveraging a single NVIDIA GeForce RTX 3070 Ti GPU, Kosmosius aims to capture the stylistic nuances and thematic elements of classical and modern literary works, making advanced language modeling accessible and efficient.
 
