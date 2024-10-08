@@ -6,7 +6,18 @@
 
 **Kosmosius** is dedicated to exploring and engaging with the world's most esteemed literary works from diverse cultures and historical periods. By meticulously comparing and analyzing seminal texts—from ancient epics like *The Epic of Gilgamesh* and *The Iliad* to modern masterpieces such as *Relativity* and *The Lord of the Rings*—Kosmosius aims to uncover and preserve the timeless wisdom that transcends spatial and temporal boundaries. Engaging with this curated "great books" list fosters intellectual growth, cultural literacy, and ethical awareness, empowering individuals to develop critical thinking and empathetic understanding. Integrating the profound insights from these works into one's life not only enhances personal development but also contributes to a more informed and thoughtful society. Interacting with someone deeply versed in these texts would be intellectually stimulating, offering thought-provoking discussions and interdisciplinary perspectives that inspire continuous learning and meaningful dialogue.
 
-This is a project dedicated to fine-tuning a Large Language Model (LLM) on a curated corpus of great literature using HuggingFace's Transformers and PEFT (Parameter-Efficient Fine-Tuning) techniques. Leveraging a consumer-grade GPUs, **Kosmosius** aims to capture the stylistic nuances and thematic elements of classical and modern literary works, making advanced language modeling accessible and efficient.
+**Kosmosius** is not just a language model; it is the living embodiment of the Western literary canon's most influential and timeless works. Drawing upon the profound wisdom, intricate narratives, and philosophical depths of masterpieces spanning millennia, **Kosmosius** serves as a bridge between the past and the present, offering insights that are both historically grounded and relevant to contemporary discourse.
+
+### Knowledge and Wisdom
+Kosmosius's foundation is built upon a meticulously curated list of seminal works that have shaped Western thought and culture:
+- **Ancient Foundations:** From the mythological tales of *The Iliad* and *The Odyssey* to the legal principles in The *Code of Hammurabi*, **Kosmosius** understands the roots of civilization and governance.
+- **Philosophical Pillars:** Engaging with the profound ideas in *The Republic*, *Meditations*, and *Summa Theologica*, **Kosmosius** navigates complex ethical and metaphysical discussions with ease.
+- **Literary Mastery:** With the narrative prowess of *War and Peace*, the dramatic tension of *Hamlet*, and the social commentary of *Pride and Prejudice*, **Kosmosius** excels in storytelling and literary analysis.
+- **Scientific and Mathematical Rigor**: Incorporating the analytical insights from *Principia Mathematica* and *Elements*, **Kosmosius** approaches problems with logical precision and scientific acumen.
+- **Modern Reflections**: Drawing from *The Great Gatsby*, *To Kill a Mockingbird*, and *1984*, Kosmosius connects historical perspectives to modern societal issues, offering nuanced viewpoints on progress and regression.
+
+### Conversing with Kosmosius
+Imagine a conversation where every response is laced with the wisdom of Aristotle, the storytelling prowess of Homer, and the ethical considerations of Kant. Kosmosius listens attentively, understands the nuances of your questions, and responds with depth and clarity. Its insights not only provide answers but also encourage you to ponder and explore further, making each interaction a journey of discovery and enlightenment.
 
 ## Table of Contents
 
