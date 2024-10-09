@@ -1,0 +1,44 @@
+preprocess:
+  input_file: data/raw/plato.txt
+  output_dir: data/processed/
+  model_name: gpt2
+  block_size: 1024
+
+create_dataset:
+  input_file: data/processed/cleaned_plato.txt
+  output_dir: data/datasets/
+  model_name: gpt2
+  block_size: 1024
+
+train:
+  train_dataset: data/datasets/train_dataset
+  val_dataset: data/datasets/val_dataset
+  output_dir: models/plato-gpt2
+  model_name: gpt2
+  num_train_epochs: 3
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  learning_rate: 5e-5
+  logging_steps: 100
+  save_steps: 500
+  eval_steps: 500
+  seed: 42
+  fp16: true
+
+evaluate:
+  model_dir: models/plato-gpt2
+  val_dataset: data/datasets/val_dataset
+  output_dir: evaluation_results
+  per_device_eval_batch_size: 1
+  seed: 42
+
+generate:
+  model_dir: models/plato-gpt2
+  output_file: generated_texts.txt
+  prompt: "Socrates once said"
+  max_length: 100
+  num_return_sequences: 1
+  temperature: 0.7
+  top_k: 50
+  top_p: 0.9
+  seed: 42
