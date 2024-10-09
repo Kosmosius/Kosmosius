@@ -48,6 +48,7 @@ def temp_environment():
     temp_dir = tempfile.mkdtemp()
     input_file = os.path.join(temp_dir, 'test_input.txt')
     output_dir = os.path.join(temp_dir, 'output')
+    block_size = 128  # Define a block size for testing
 
     # Sample raw text for testing
     raw_text = """
@@ -67,6 +68,7 @@ def temp_environment():
         'input_file': input_file,
         'output_dir': output_dir,
         'raw_text': raw_text,
+        'block_size': block_size,
     }
 
     # Clean up the temporary directory after the test
@@ -112,11 +114,11 @@ def test_tokenize_function(tokenizer):
     assert isinstance(tokenized['input_ids'][0], list), "'input_ids' should be a list."
     assert len(tokenized['input_ids'][0]) > 0, "'input_ids' should not be empty."
 
-def test_group_texts(tokenizer):
+def test_group_texts(tokenizer, temp_environment):
     """
     Test the group_texts function to ensure it correctly groups tokenized texts into fixed-size blocks.
     """
-    block_size = 128
+    block_size = temp_environment['block_size']
     text = ' '.join(['This is a test sentence.'] * 100)  # Create a long text
     dataset = Dataset.from_dict({'text': [text]})
     tokenized = dataset.map(
@@ -170,7 +172,7 @@ def test_full_preprocessing_pipeline(temp_environment, tokenizer):
     assert 'attention_mask' in tokenized_dataset.features, "Tokenized dataset should contain 'attention_mask'."
 
     # Group texts
-    block_size = 128
+    block_size = temp_environment['block_size']
     lm_dataset = tokenized_dataset.map(
         lambda examples: group_texts(examples, block_size),
         batched=True
