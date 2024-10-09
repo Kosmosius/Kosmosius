@@ -20,30 +20,35 @@ import pytest
 import os
 import shutil
 import tempfile
+import gc
 from datasets import Dataset
 from transformers import AutoTokenizer
 import nltk
 
 # Import functions from preprocess_data.py
-# Adjust the import path based on your project structure
 # Ensure that 'scripts' directory contains an __init__.py file
 from scripts.preprocess_data import (
     read_and_clean_text,
     tokenize_function,
     group_texts,
     save_dataset,
+    setup_logging
 )
 
 # Ensure necessary NLTK data files are downloaded for testing
 nltk.download('punkt', quiet=True)
 
-@pytest.fixture
+
+@pytest.fixture(scope="function")
 def temp_environment():
     """
     Fixture to set up a temporary environment for testing.
     Creates temporary input and output directories/files.
     Cleans up after the test.
     """
+    # Setup logging to avoid interference with tests
+    setup_logging(log_file=os.devnull)
+
     # Create a temporary directory
     temp_dir = tempfile.mkdtemp()
     input_file = os.path.join(temp_dir, 'test_input.txt')
@@ -72,9 +77,15 @@ def temp_environment():
     }
 
     # Clean up the temporary directory after the test
-    shutil.rmtree(temp_dir)
+    # Ensure that datasets are garbage collected to release file handles
+    gc.collect()
+    try:
+        shutil.rmtree(temp_dir)
+    except PermissionError as e:
+        print(f"Warning: Could not delete temp_dir {temp_dir}: {e}")
 
-@pytest.fixture
+
+@pytest.fixture(scope="module")
 def tokenizer():
     """
     Fixture to initialize and provide the tokenizer.
@@ -84,6 +95,7 @@ def tokenizer():
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
     return tokenizer
+
 
 def test_read_and_clean_text(temp_environment):
     """
@@ -98,14 +110,16 @@ def test_read_and_clean_text(temp_environment):
     assert cleaned_text.startswith('This is a sample text'), "cleaned text does not start with expected content."
     assert cleaned_text.endswith('multiple sentences.'), "cleaned text does not end with expected content."
 
-def test_tokenize_function(tokenizer):
+
+def test_tokenize_function(tokenizer, temp_environment):
     """
     Test the tokenize_function to ensure it correctly tokenizes input text.
     """
+    block_size = temp_environment['block_size']
     text = 'This is a test.'
     dataset = Dataset.from_dict({'text': [text]})
     tokenized = dataset.map(
-        lambda examples: tokenize_function(examples, tokenizer),
+        lambda examples: tokenize_function(examples, tokenizer, block_size),
         batched=True,
         remove_columns=['text']
     )
@@ -113,6 +127,7 @@ def test_tokenize_function(tokenizer):
     assert 'attention_mask' in tokenized.features, "Tokenized dataset should contain 'attention_mask'."
     assert isinstance(tokenized['input_ids'][0], list), "'input_ids' should be a list."
     assert len(tokenized['input_ids'][0]) > 0, "'input_ids' should not be empty."
+
 
 def test_group_texts(tokenizer, temp_environment):
     """
@@ -122,7 +137,7 @@ def test_group_texts(tokenizer, temp_environment):
     text = ' '.join(['This is a test sentence.'] * 100)  # Create a long text
     dataset = Dataset.from_dict({'text': [text]})
     tokenized = dataset.map(
-        lambda examples: tokenize_function(examples, tokenizer),
+        lambda examples: tokenize_function(examples, tokenizer, block_size),
         batched=True,
         remove_columns=['text']
     )
@@ -135,25 +150,35 @@ def test_group_texts(tokenizer, temp_environment):
     assert isinstance(lm_dataset['input_ids'][0], list), "'input_ids' should be a list."
     assert len(lm_dataset['input_ids'][0]) == block_size, f"'input_ids' length should be {block_size}."
 
-def test_save_dataset(temp_environment):
+
+def test_save_dataset(tokenizer, temp_environment):
     """
     Test the save_dataset function to ensure it correctly saves the dataset to disk.
     """
+    block_size = temp_environment['block_size']
     text = 'This is a test.'
     dataset = Dataset.from_dict({'text': [text]})
+    # Tokenize before saving
+    tokenized_dataset = dataset.map(
+        lambda examples: tokenize_function(examples, tokenizer, block_size),
+        batched=True,
+        remove_columns=['text']
+    )
     output_filename = 'test_dataset'
-    save_dataset(dataset, temp_environment['output_dir'], output_filename)
+    save_dataset(tokenized_dataset, temp_environment['output_dir'], output_filename)
     output_path = os.path.join(temp_environment['output_dir'], output_filename)
     assert os.path.exists(output_path), "save_dataset did not create the expected output directory."
-    # Additional check: load the dataset and verify content
+    # Load the dataset and verify content
     loaded_dataset = Dataset.load_from_disk(output_path)
     assert 'input_ids' in loaded_dataset.features, "Loaded dataset should contain 'input_ids'."
     assert len(loaded_dataset) == 1, "Loaded dataset should contain one example."
 
-def test_full_preprocessing_pipeline(temp_environment, tokenizer):
+
+def test_full_preprocessing_pipeline(tokenizer, temp_environment):
     """
     Test the full preprocessing pipeline from reading the file to saving the datasets.
     """
+    block_size = temp_environment['block_size']
     # Read and clean the text
     cleaned_text = read_and_clean_text(temp_environment['input_file'])
     assert 'This is a sample text' in cleaned_text, "read_and_clean_text did not process the text correctly."
@@ -164,7 +189,7 @@ def test_full_preprocessing_pipeline(temp_environment, tokenizer):
 
     # Tokenize
     tokenized_dataset = dataset.map(
-        lambda examples: tokenize_function(examples, tokenizer),
+        lambda examples: tokenize_function(examples, tokenizer, block_size),
         batched=True,
         remove_columns=['text']
     )
@@ -172,7 +197,6 @@ def test_full_preprocessing_pipeline(temp_environment, tokenizer):
     assert 'attention_mask' in tokenized_dataset.features, "Tokenized dataset should contain 'attention_mask'."
 
     # Group texts
-    block_size = temp_environment['block_size']
     lm_dataset = tokenized_dataset.map(
         lambda examples: group_texts(examples, block_size),
         batched=True
@@ -191,11 +215,13 @@ def test_full_preprocessing_pipeline(temp_environment, tokenizer):
     assert 'labels' in train_dataset.features, "Train dataset should contain 'labels'."
     assert len(train_dataset['input_ids'][0]) == block_size, "Train 'input_ids' length mismatch."
 
+
 def test_tokenizer_padding(tokenizer):
     """
     Ensure the tokenizer has a pad_token set.
     """
     assert tokenizer.pad_token is not None, "Tokenizer should have a pad_token set."
+
 
 def test_block_size():
     """
@@ -204,6 +230,7 @@ def test_block_size():
     block_size = 128
     assert isinstance(block_size, int), "block_size should be an integer."
     assert block_size > 0, "block_size should be a positive integer."
+
 
 def test_nltk_download():
     """
