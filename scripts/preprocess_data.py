@@ -134,8 +134,7 @@ def tokenize_function(examples, tokenizer, block_size):
     return tokenizer(
         examples['text'],
         return_special_tokens_mask=True,
-        truncation=True,
-        max_length=block_size
+        truncation=False  # Disable truncation to allow grouping
     )
 
 
@@ -156,11 +155,15 @@ def group_texts(examples, block_size):
     # We drop the small remainder
     total_length = (total_length // block_size) * block_size
 
+    if total_length == 0:
+        # Return empty lists to prevent errors
+        return {k: [] for k in concatenated_examples.keys()}
+
     result = {
         k: [t[i: i + block_size] for i in range(0, total_length, block_size)]
         for k, t in concatenated_examples.items()
     }
-    result['labels'] = result['input_ids'].copy()
+    result['labels'] = result['input_ids'].copy()  # Explicitly add labels based on input_ids
     return result
 
 
@@ -218,10 +221,15 @@ def main():
     )
 
     # Split into train and validation datasets
-    split_datasets = lm_dataset['train'].train_test_split(test_size=0.1, seed=42)
+    if len(lm_dataset['train']) < 2:
+        logging.warning("Not enough samples to perform train-test split.")
+        split_datasets = lm_dataset
+    else:
+        split_datasets = lm_dataset['train'].train_test_split(test_size=0.1, seed=42)
+    
     data_dict = DatasetDict({
         'train': split_datasets['train'],
-        'validation': split_datasets['test']
+        'validation': split_datasets.get('test', split_datasets['train'])  # Handle cases with insufficient data
     })
 
     # Save the datasets
