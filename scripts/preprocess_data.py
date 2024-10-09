@@ -30,9 +30,13 @@ from transformers import AutoTokenizer
 # Ensure necessary NLTK data files are downloaded
 nltk.download('punkt', quiet=True)
 
+
 def setup_logging(log_file='preprocess_data.log'):
     """
     Sets up logging for the script.
+
+    Parameters:
+        log_file (str): Path to the log file.
     """
     logging.basicConfig(
         filename=log_file,
@@ -47,9 +51,13 @@ def setup_logging(log_file='preprocess_data.log'):
     console.setFormatter(formatter)
     logging.getLogger('').addHandler(console)
 
+
 def parse_arguments():
     """
     Parses command-line arguments.
+
+    Returns:
+        argparse.Namespace: Parsed arguments.
     """
     parser = argparse.ArgumentParser(description='Preprocess raw text data for language model training.')
     parser.add_argument(
@@ -78,9 +86,16 @@ def parse_arguments():
     )
     return parser.parse_args()
 
+
 def read_and_clean_text(file_path):
     """
     Reads and cleans the raw text file.
+
+    Parameters:
+        file_path (str): Path to the raw text file.
+
+    Returns:
+        str: Cleaned text.
     """
     if not os.path.exists(file_path):
         logging.error(f"Input file not found at {file_path}. Exiting.")
@@ -103,15 +118,37 @@ def read_and_clean_text(file_path):
     logging.info("Text cleaning completed.")
     return text
 
-def tokenize_function(examples, tokenizer):
+
+def tokenize_function(examples, tokenizer, block_size):
     """
     Tokenizes the text using the specified tokenizer.
+
+    Parameters:
+        examples (dict): Batch of examples to tokenize.
+        tokenizer (transformers.PreTrainedTokenizer): The tokenizer to use.
+        block_size (int): The maximum sequence length.
+
+    Returns:
+        dict: Tokenized inputs.
     """
-    return tokenizer(examples['text'], return_special_tokens_mask=True, truncation=True, max_length=block_size)
+    return tokenizer(
+        examples['text'],
+        return_special_tokens_mask=True,
+        truncation=True,
+        max_length=block_size
+    )
+
 
 def group_texts(examples, block_size):
     """
     Concatenates texts and groups them into blocks of a fixed size.
+
+    Parameters:
+        examples (dict): Batch of tokenized examples.
+        block_size (int): The size of each block.
+
+    Returns:
+        dict: Grouped tokenized inputs.
     """
     concatenated_examples = {k: sum(examples[k], []) for k in examples.keys()}
     total_length = len(concatenated_examples['input_ids'])
@@ -120,20 +157,26 @@ def group_texts(examples, block_size):
     total_length = (total_length // block_size) * block_size
 
     result = {
-        k: [t[i : i + block_size] for i in range(0, total_length, block_size)]
+        k: [t[i: i + block_size] for i in range(0, total_length, block_size)]
         for k, t in concatenated_examples.items()
     }
-    # Create labels
     result['labels'] = result['input_ids'].copy()
     return result
+
 
 def save_dataset(dataset, output_dir, filename):
     """
     Saves the dataset to disk.
+
+    Parameters:
+        dataset (datasets.Dataset): The dataset to save.
+        output_dir (str): The directory where to save the dataset.
+        filename (str): The name of the saved dataset.
     """
     output_path = os.path.join(output_dir, filename)
     dataset.save_to_disk(output_path)
     logging.info(f"Dataset saved to {output_path}")
+
 
 def main():
     # Setup logging
@@ -162,11 +205,8 @@ def main():
         tokenizer.pad_token = tokenizer.eos_token
 
     # Tokenize the dataset
-    def tokenize_batch(examples):
-        return tokenizer(examples['text'], return_special_tokens_mask=True, truncation=True, max_length=block_size)
-
     tokenized_dataset = dataset.map(
-        tokenize_batch,
+        lambda examples: tokenize_function(examples, tokenizer, block_size),
         batched=True,
         remove_columns=['text']
     )
@@ -189,6 +229,7 @@ def main():
     logging.info(f"Processed datasets saved to {output_dir}")
 
     logging.info("Preprocessing completed successfully.")
+
 
 if __name__ == "__main__":
     main()
