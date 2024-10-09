@@ -25,7 +25,7 @@ import os
 import re
 import nltk
 from datasets import load_dataset, DatasetDict
-from transformers import AutoTokenizer, DataCollatorForLanguageModeling
+from transformers import AutoTokenizer
 
 # Ensure necessary NLTK data files are downloaded
 nltk.download('punkt', quiet=True)
@@ -107,7 +107,33 @@ def tokenize_function(examples, tokenizer):
     """
     Tokenizes the text using the specified tokenizer.
     """
-    return tokenizer(examples['text'], return_special_tokens_mask=True)
+    return tokenizer(examples['text'], return_special_tokens_mask=True, truncation=True, max_length=block_size)
+
+def group_texts(examples, block_size):
+    """
+    Concatenates texts and groups them into blocks of a fixed size.
+    """
+    concatenated_examples = {k: sum(examples[k], []) for k in examples.keys()}
+    total_length = len(concatenated_examples['input_ids'])
+
+    # We drop the small remainder
+    total_length = (total_length // block_size) * block_size
+
+    result = {
+        k: [t[i : i + block_size] for i in range(0, total_length, block_size)]
+        for k, t in concatenated_examples.items()
+    }
+    # Create labels
+    result['labels'] = result['input_ids'].copy()
+    return result
+
+def save_dataset(dataset, output_dir, filename):
+    """
+    Saves the dataset to disk.
+    """
+    output_path = os.path.join(output_dir, filename)
+    dataset.save_to_disk(output_path)
+    logging.info(f"Dataset saved to {output_path}")
 
 def main():
     # Setup logging
@@ -126,9 +152,6 @@ def main():
 
     # Read and clean the text
     cleaned_text = read_and_clean_text(input_file)
-
-    # Split text into sentences (optional)
-    # sentences = nltk.tokenize.sent_tokenize(cleaned_text)
 
     # Create a dataset from the text
     dataset = load_dataset('text', data_files={'train': input_file})
@@ -149,24 +172,8 @@ def main():
     )
 
     # Group texts into blocks
-    def group_texts(examples):
-        """
-        Concatenates texts and groups them into blocks of a fixed size.
-        """
-        concatenated_examples = {k: sum(examples[k], []) for k in examples.keys()}
-        total_length = len(concatenated_examples['input_ids'])
-
-        # We drop the small remainder
-        total_length = (total_length // block_size) * block_size
-
-        result = {
-            k: [t[i : i + block_size] for i in range(0, total_length, block_size)]
-            for k, t in concatenated_examples.items()
-        }
-        return result
-
     lm_dataset = tokenized_dataset.map(
-        group_texts,
+        lambda examples: group_texts(examples, block_size),
         batched=True
     )
 
